@@ -10,13 +10,13 @@
     script-path: 'some.Jenkinsfile'
     scm:
       - bitbucket:
-            repo-owner: 'SANDBOX'
-            repo: 'test'
-            credentials-id: 'secret'
+          repo-owner: 'SANDBOX'
+          repo: 'test'
+          credentials-id: 'secret'
       - git:
-            url: 'https://example.com/jonhndoe/keep-frontend.git'
-            credentials-id: 'secret'
+          url: 'https://example.com/jonhndoe/keep-frontend.git'
+          credentials-id: 'secret'
       - github:
-            repo: 'foo'
-            repo-owner: 'johndoe'
-            credentials-id: 'secret'
+          repo: 'foo'
+          repo-owner: 'johndoe'
+          credentials-id: 'secret'
