@@ -1,8 +1,8 @@
+---
 name: 'demo-multibranch-defaults'
 project-type: multibranch-defaults
 scm:
     - github:
-        repo: 'jenkins-jobs'
-        repo-owner: 'jasvinder-aulakh'
-        credentials-id: 'secret'
-
+          repo: 'jenkins-jobs'
+          repo-owner: 'jasvinder-aulakh'
+          credentials-id: 'secret'
