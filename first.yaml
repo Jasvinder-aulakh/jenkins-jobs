@@ -7,6 +7,6 @@
     name: first
     project-type: multibranch
     scm:
-    - github: 
-        repo: "https://github.com/Jasvinder-aulakh/jenkins-jobs.git"
-        repo-owner: jasvinder-aulakh
+      - github: 
+          repo: "https://github.com/Jasvinder-aulakh/jenkins-jobs.git"
+          repo-owner: jasvinder-aulakh
