@@ -1,0 +1,11 @@
+---
+- job:
+    name: second_job
+    parameters:
+      - string:
+          name: message
+          default: second
+    description: 'Automatically generated test'
+    project-type: freestyle
+    builders:
+      - shell: 'echo $message'
