@@ -1,7 +1,7 @@
 ---
 - job:
-    name: jenkins-job-builder-multibranch-pipeline
-    project-type: multibranch-pipeline
+    name: jenkins-job-builder-multibranch
+    project-type: multibranch
     multibranch:
       num-to-keep: '200'
       days-to-keep: '100'
@@ -16,7 +16,7 @@
         interval: '280000'
       scm:
         github:
-          repo: 'jenkins-job-builder-multibranch-pipeline'
+          repo: 'jenkins-job-builder-multibranch'
           repo-owner: 'jasvinder-aulakh'
           scan-credentials-id: '0b6eebc5-a630-43e3-a9e5-a7407213cb82'
           checkout-credentials-id: 'f5d551d6-f479-4f9c-b8fa-17eb3f70b4f8'
