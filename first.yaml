@@ -1,14 +1,11 @@
-- 
-  defaults: 
+- defaults:
     folder: First
     name: First
-- 
-  job: 
+- job:
     defaults: First
     name: first
     project-type: multibranch
-    scm: 
-      - 
-        github: ~
+    scm:
+      - github: 
         repo: "https://github.com/Jasvinder-aulakh/jenkins-jobs.git"
         repo-owner: jasvinder-aulakh
