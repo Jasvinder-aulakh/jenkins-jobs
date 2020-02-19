@@ -19,4 +19,3 @@ scm:
           repo: 'foo'
           repo-owner: 'johndoe'
           credentials-id: 'secret'
-
