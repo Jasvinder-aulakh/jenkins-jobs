@@ -9,14 +9,14 @@
     days-to-keep: '10'
     script-path: 'some.Jenkinsfile'
     scm:
-        - bitbucket:
-              repo-owner: 'SANDBOX'
-              repo: 'test'
-              credentials-id: 'secret'
-        - git:
-              url: 'https://example.com/jonhndoe/keep-frontend.git'
-              credentials-id: 'secret'
-        - github:
-              repo: 'foo'
-              repo-owner: 'johndoe'
-              credentials-id: 'secret'
+      - bitbucket:
+            repo-owner: 'SANDBOX'
+            repo: 'test'
+            credentials-id: 'secret'
+      - git:
+            url: 'https://example.com/jonhndoe/keep-frontend.git'
+            credentials-id: 'secret'
+      - github:
+            repo: 'foo'
+            repo-owner: 'johndoe'
+            credentials-id: 'secret'
