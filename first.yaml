@@ -3,12 +3,12 @@ name: 'demo-multibranch-multi-scm-full'
 description: 'Workflow demo'
 project-type: multibranch
 periodic-folder-trigger: 1d
-prune-dead-branches: True
+prune-dead-branches: true
 number-to-keep: '10'
 days-to-keep: '10'
 script-path: 'some.Jenkinsfile'
 scm:
     - github:
-        repo: 'foo'
-        repo-owner: 'johndoe'
-        credentials-id: 'secret'
+          repo: 'foo'
+          repo-owner: 'johndoe'
+          credentials-id: 'secret'
